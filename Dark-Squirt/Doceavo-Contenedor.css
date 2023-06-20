@@ -1,0 +1,327 @@
+* {
+    font-family: "Verdana", cursive;
+    font-weight: 100;
+    font-size: 16px; 
+}
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+    display: inline;
+    background-color: #000000;
+    color: gold;
+    font-size: 40px;
+    position: absolute;
+    bottom: auto;
+    left: 45%;
+    z-index: 10000000;
+}
+
+/* todo esto  es para la parte superior de la pantala*/
+.borde-superior {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 50px;
+    position: fixed
+    top 50px;
+    position: fixed;
+    z-index: 100000;
+}
+
+.linea-separatoria {
+    background-color: goldenrod;
+    width: 100%;
+    height: 52px;
+}
+
+.borde-inferior {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 40px;
+}
+
+
+/* Estilos para la lista de botones */
+.barra-superior {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+  }
+
+  
+/* Estilos para cada elemento de la lista */
+.barra-superior li {
+    display: inline-block;
+  }
+
+  /* Estilos para los enlaces dentro de los elementos de la lista */
+.barra-superior li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  
+/* Estilos para los enlaces cuando se les pasa el mouse arriba */
+.barra-superior li a:hover {
+    background-color: #000000;
+    color: goldenrod;
+  }
+
+.lista-de-informacion {
+    position: relative;
+    left: 75%;
+}
+
+body {
+    overflow:hidden;
+  }
+  
+
+.caja {
+    position: relative;
+    bottom: 80px;
+}
+
+h2 {
+    font-size: 80px;
+    position: relative;
+    top: 176px;
+    left: 700px;
+    color: rgb(68, 68, 68);
+}
+
+b {
+    font-size: 30px;
+    position: relative;
+    bottom: 420px;
+    left:820px;
+}
+
+  
+strong {
+    font-size: 60px;
+    position: relative;
+    left: 540px;
+    bottom: 310px;
+    color: black;
+}
+
+
+button {
+    background-color: rgb(107, 107, 107);
+    border: solid 1px gold;
+    box-shadow: 2px 2px 2px black;
+    width:180px;;
+    height: 60px;
+    position: relative;
+    bottom: 270px;
+    left: 910px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+}
+
+button i {
+    font-size: 40px;
+    text-shadow: 2px 2px 2px black;
+  }
+
+.zoombale {
+    transition: transform 0.5s;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.zoomable:hover {
+    transform: scale(1.1); 
+  }
+
+
+
+.contenedor-12 {
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 600px;
+    border: 3px solid rgb(255, 250, 178);
+    position: relative;
+    top: 100px;
+    left: 50px;
+    box-shadow: 5px 5px 5px #000000;
+}
+
+
+a {
+    text-decoration: none; /* Elimina el - del boton */
+}
+
+  footer {
+    background-color: #000000;
+    padding: 50px;
+    height: 58px;
+    text-align: center;
+    position: relative;
+    bottom: 66px;
+    border: solid 1px gold;
+  }
+  
+
+.Sobre-Nosotros {
+    font-size: 25px;
+    color: gold;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.Sobre-Nosotros2 {
+    font-size: 12px;
+    color: rgb(252, 233, 127);
+    position: absolute;
+    left: 60px;
+    top: 58px;
+}
+
+.Sobre-Nosotros3 {
+    font-size: 12px;
+    color: rgb(255, 236, 130);
+    position: absolute;
+    left: 60px;
+    top: 78px;
+}
+
+.Sobre-Nosotros4 {
+    font-size: 12px;
+    color: rgb(255, 237, 132);
+    position: absolute;
+    left: 60px;
+    top: 98px;
+}
+
+
+
+.Siguenos {
+    font-size: 25px;
+    color:gold;
+    position: absolute;
+    left: 560px;
+    top: 20px;
+}
+
+.Siguenos2 {
+    font-size: 12px;
+    color: rgb(255, 237, 132);
+    position: absolute;
+    left: 570px;
+    top: 60px;
+}
+
+.Siguenos3 {
+    font-size: 12px;
+    color: rgb(255, 237, 132);
+    position: absolute;
+    left: 570px;
+    top: 80px;
+}
+
+.Siguenos4 {
+    font-size: 12px;
+    color: rgb(255, 237, 132);
+    position: absolute;
+    left: 570px;
+    top: 100px;
+}
+
+
+.Contactanos {
+    font-size: 25px;
+    color:gold;
+    position: absolute;
+    left: 1000px;
+    top: 20px;
+}
+
+.Contactanos2 {
+    font-size: 12px;
+    color: rgb(255, 237, 132);
+    position: absolute;
+    left: 1000px;
+    top: 75px;
+}
+
+.Contactanos3 {
+    font-size: 12px;
+    color: rgb(255, 237, 132);
+    position: absolute;
+    left: 1000px;
+    top: 50px;
+}
+
+
+.Legal {
+    font-size: 25px;
+    color:gold;
+    position: absolute;
+    left: 1500px;
+    top: 20px;
+}
+
+.Legal2 {
+    font-size: 12px;
+    color: rgb(255, 237, 132);
+    position: absolute;
+    left: 1500px;
+    top: 50px;
+}
+
+.Legal3 {
+    font-size: 12px;
+    color: rgb(255, 237, 132);
+    position: absolute;
+    left: 1500px;
+    top: 75px;
+}
+
+.Legal4 {
+    font-size: 12px;
+    color: rgb(255, 237, 132);
+    position: absolute;
+    left: 1500px;
+    top: 100px;
+}
+
+.linea-de-separacion1 {
+    width: 3px;
+    height: 158px;
+    background-color: gold;
+    position: relative;
+    left: 20%;
+    bottom: 50px;
+}
+
+.linea-de-separacion2 {
+    width: 3px;
+    height: 158px;
+    background-color: gold;
+    position: relative;
+    left: 50%;
+    bottom: 208px;
+
+}
+
+.linea-de-separacion3 {
+    width: 3px;
+    height: 158px;
+    background-color: gold;
+    position: relative;
+    left: 80%;
+    bottom: 366px;
+}
