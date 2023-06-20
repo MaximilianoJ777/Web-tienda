@@ -1,0 +1,584 @@
+* {
+    font-family: "Verdana", cursive;
+    font-weight: 100;
+    font-size: 16px; 
+}
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+h1 {
+    display: inline;
+    background-color: #000000;
+    color: gold;
+    font-size: 40px;
+    position: absolute;
+    bottom: auto;
+    left: 45%;
+    z-index: 10000000;
+}
+
+/* todo esto  es para la parte superior de la pantala*/
+.borde-superior {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 50px;
+    position: fixed
+    top 50px;
+    position: fixed;
+    z-index: 100000;
+}
+
+.linea-separatoria {
+    background-color: goldenrod;
+    width: 100%;
+    height: 52px;
+}
+
+.borde-inferior {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 40px;
+}
+
+
+/* Estilos para la lista de botones */
+.barra-superior {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+  }
+
+  
+/* Estilos para cada elemento de la lista */
+.barra-superior li {
+    display: inline-block;
+  }
+
+  /* Estilos para los enlaces dentro de los elementos de la lista */
+.barra-superior li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  
+/* Estilos para los enlaces cuando se les pasa el mouse arriba */
+.barra-superior li a:hover {
+    background-color: #000000;
+    color: goldenrod;
+  }
+
+.lista-de-informacion {
+    position: relative;
+    left: 75%;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+img.zoomable {
+    transition: transform 0.3s;
+    box-shadow: 5px 5px 5px black;
+    z-index: 500;
+  }
+  
+  img.zoomable:hover {
+    transform: scale(1.4); 
+     z-index: 500;
+}
+
+.contenedor-1 {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 22px;
+    left: 240px;
+    border: 3px solid rgb(255, 250, 178);
+}
+  
+.contenedor-1 img {
+    float: right;
+}
+
+.contenedor-1 b {
+    position: relative;
+    left: 25px;
+    top: 12px;
+    z-index: -1;
+}
+ 
+.contenedor-2 {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 327px;
+    left: 750px;
+    border: 3px solid rgb(255, 250, 178);
+
+}
+  
+.contenedor-2 img {
+    float: right;
+}
+
+.contenedor-2 b {
+    position: relative;
+    left: 25px;
+    top: 12px;
+    z-index: -1;
+
+}
+ 
+.contenedor-3 {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 632px;
+    left: 1300px;
+    border: 3px solid rgb(255, 250, 178);
+
+}
+  
+.contenedor-3 img {
+    float: right;
+}
+
+.contenedor-3 b {
+    position: relative;
+    left: 25px;
+    top: 12px;
+    z-index: -1;
+
+}
+
+
+.contenedor-4 {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 500px;
+    left: 240px;
+    border: 3px solid rgb(255, 250, 178);
+
+}
+  
+.contenedor-4 img {
+    float: right;
+}
+
+.contenedor-4 b {
+    position: relative;
+    left: 25px;
+    top: 12px;
+    z-index: -1;
+
+}
+
+ 
+.contenedor-5 {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 805px;
+    left: 750px;
+    border: 3px solid rgb(255, 250, 178);
+
+}
+  
+.contenedor-5 img {
+    float: right;
+}
+
+.contenedor-5 b {
+    position: relative;
+    left: 25px;
+    top: 12px;
+    z-index: -1;
+
+}
+
+ 
+.contenedor-6 {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 1110px;
+    left: 1300px;
+    border: 3px solid rgb(255, 250, 178);
+}
+  
+.contenedor-6 img {
+    float: right;
+}
+
+.contenedor-6 b {
+    position: relative;
+    left: 25px;
+    top: 12px;
+    z-index: -1;
+
+}
+
+.contenedor-7 {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 995px;
+    left: 240px;
+    border: 3px solid rgb(255, 250, 178);
+}
+  
+.contenedor-7 img {
+    float: right;
+}
+
+.contenedor-7 b {
+    position: relative;
+    left: 25px;
+    top: 12px;
+    z-index: -1;
+
+}
+
+
+.contenedor-8 {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 1300px;
+    left: 750px;
+
+    border: 3px solid rgb(255, 250, 178);
+}
+  
+.contenedor-8 img {
+    float: right;
+}
+
+.contenedor-8 b {
+    position: relative;
+    left: 25px;
+    top: 12px;
+    z-index: -1;
+
+}
+
+
+.contenedor-9 {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 1604px;
+    left: 1300px;
+    border: 3px solid rgb(255, 250, 178);
+}
+  
+.contenedor-9 img {
+    float: right;
+}
+
+.contenedor-9 b {
+    position: relative;
+    left: 25px;
+    top: 12px;
+    z-index: -1;
+
+}
+
+
+.contenedor-10 {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 1510px;
+    left: 240px;
+    border: 3px solid rgb(255, 250, 178);
+}
+  
+.contenedor-10 img {
+    float: right;
+}
+
+.contenedor-10 b {
+    position: relative;
+    left: 25px;
+    top: 12px;
+    z-index: -1;
+
+}
+
+
+.contenedor-11 {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 1815px;
+    left: 750px;
+    border: 3px solid rgb(255, 250, 178);
+}
+  
+.contenedor-11 img {
+    float: right;
+}
+
+.contenedor-11 b {
+    position: relative;
+    left: 25px;
+    top: 12px;
+    z-index: -1;
+
+}
+
+
+.contenedor-12 {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 2122px;
+    left: 1300px;
+    border: 3px solid rgb(255, 250, 178);
+}
+  
+.contenedor-12 img {
+    float: right;
+}
+
+.contenedor-12 b {
+    position: relative;
+    left: 25px;
+    top: 12px;
+    z-index: -1;
+
+}
+
+footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  p {
+    color: gold;
+    margin: 0%;
+  }
+
+
+ footer {
+    background-color: #000000;
+    padding: 50px;
+    height: 58px;
+    text-align: center;
+    border: solid 1px gold;
+    position: relative;
+    bottom: 1800px;
+  }
+
+.Sobre-Nosotros {
+    font-size: 25px;
+    color: gold;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.Sobre-Nosotros2 {
+    font-size: 12px;
+    color: rgb(252, 233, 127);
+    position: absolute;
+    left: 60px;
+    top: 58px;
+}
+
+.Sobre-Nosotros3 {
+    font-size: 12px;
+    color: rgb(255, 236, 130);
+    position: absolute;
+    left: 60px;
+    top: 78px;
+}
+
+.Sobre-Nosotros4 {
+    font-size: 12px;
+    color: rgb(255, 237, 132);
+    position: absolute;
+    left: 60px;
+    top: 98px;
+}
+
+
+.Siguenos {
+    font-size: 25px;
+    color:gold;
+    position: absolute;
+    left: 560px;
+    top: 20px;
+}
+
+.Siguenos2 {
+    font-size: 12px;
+    color: rgb(255, 237, 132);
+    position: absolute;
+    left: 570px;
+    top: 60px;
+}
+
+.Siguenos3 {
+    font-size: 12px;
+    color: rgb(255, 237, 132);
+    position: absolute;
+    left: 570px;
+    top: 80px;
+}
+
+.Siguenos4 {
+    font-size: 12px;
+    color: rgb(255, 237, 132);
+    position: absolute;
+    left: 570px;
+    top: 100px;
+}
+
+
+.Contactanos {
+    font-size: 25px;
+    color:gold;
+    position: absolute;
+    left: 1000px;
+    top: 20px;
+}
+
+.Contactanos2 {
+    font-size: 12px;
+    color: rgb(255, 237, 132);
+    position: absolute;
+    left: 1000px;
+    top: 75px;
+}
+
+.Contactanos3 {
+    font-size: 12px;
+    color: rgb(255, 237, 132);
+    position: absolute;
+    left: 1000px;
+    top: 50px;
+}
+
+
+.Legal {
+    font-size: 25px;
+    color:gold;
+    position: absolute;
+    left: 1500px;
+    top: 20px;
+}
+
+.Legal2 {
+    font-size: 12px;
+    color: rgb(255, 237, 132);
+    position: absolute;
+    left: 1500px;
+    top: 50px;
+}
+
+.Legal3 {
+    font-size: 12px;
+    color: rgb(255, 237, 132);
+    position: absolute;
+    left: 1500px;
+    top: 75px;
+}
+
+.Legal4 {
+    font-size: 12px;
+    color: rgb(255, 237, 132);
+    position: absolute;
+    left: 1500px;
+    top: 100px;
+}
+
+.linea-de-separacion1 {
+    width: 3px;
+    height: 158px;
+    background-color: gold;
+    position: relative;
+    left: 20%;
+    bottom: 50px;
+}
+
+.linea-de-separacion2 {
+    width: 3px;
+    height: 158px;
+    background-color: gold;
+    position: relative;
+    left: 50%;
+    bottom: 208px;
+
+}
+
+.linea-de-separacion3 {
+    width: 3px;
+    height: 158px;
+    background-color: gold;
+    position: relative;
+    left: 80%;
+    bottom: 366px;
+}
+
+footer {
+    margin-top: -10px; /* Ajusta este valor según sea necesario */
+  }
+
+  body {
+    min-height: 100vh;
+  }
+  
+  main {
+    margin-bottom: -50px; /* Ajusta este valor según sea necesario */
+  }
+  
+
+
+body {
+    max-height: 70%;
+}
+
+footer {
+    max-height: 70%;
+}
+
+body {
+    overflow-y:inherit;
+    max-height: 100px;
+    
+}
+
+
+.Body-General {
+    max-height: 2950px;
+}
+
+html {
+    max-height: 2900px;
+}
